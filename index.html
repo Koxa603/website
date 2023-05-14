@@ -4,13 +4,18 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>My Website</title>
+	<script>
+		function showText() {
+			document.getElementById("about-text").innerHTML = "abcdefghijklmn";
+		}
+	</script>
 </head>
 <body>
 	<header>
 		<h1>Welcome to my website</h1>
 		<nav>
 			<ul>
-				<li><a href="#about">About</a></li>
+				<li><a href="#" onclick="showText()">About</a></li>
 				<li><a href="#services">Services</a></li>
 				<li><a href="#portfolio">Portfolio</a></li>
 				<li><a href="#contact">Contact</a></li>
